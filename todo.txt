@@ -1,0 +1,43 @@
+[] List of useful utilities and default packages
+[] Good scaling sys font
+[] Probably just use fuzzel
+[] Export background images
+[] Single use TUI apps
+[] Image preview with spacebar. it's probably Nautilus
+[] Replicate config and theming for Everforest
+	[] Chromium browsers: https://www.januschka.com/chromium-omarchy.html
+	[] Alacritty
+		[] Term prompt
+	[] Waybar
+		[] Tray icons
+		[] bluetui
+		[] wifi tui
+		[] btop
+		[] power utility
+		[] mako nc
+		[] Player module from sway
+		[] swayosd
+	[] Hypr
+		[] Hyprland
+			[] Clamshell mode
+			[] Universal copy/paste
+			[] Transparency/blur
+			[] Keybindings
+			[] Animations esp. workspaces
+		[] Hyprlock
+			[] Issue with locking+hibernate
+		[] Hyprsunset
+	[] Cool bootloader
+
+[] Now do it with theme switching
+
+	theme-name/
+	├── hyprland.conf          # Compositor colors
+	├── waybar.css             # Status bar styling
+	├── hyprlock.conf          # Lock screen colors ($color, $inner_color, etc.)
+	├── swayosd.css           # OSD colors (@define-color variables)
+	├── swaync.css            # Notification center styling (optional but recommended)
+	├── alacritty.toml        # Terminal color scheme
+	├── backgrounds/          # Directory must exist
+	│   └── [at least one image file]
+	└── light.mode            # Optional: presence triggers light mode
