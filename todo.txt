@@ -1,13 +1,14 @@
 [] List of useful utilities and default packages
+	[] bat, 
+	[] dedicated TUI launch
 [] Good scaling sys font
 [] Probably just use fuzzel
 [] Export background images
-[] Single use TUI apps
 [] Image preview with spacebar. it's probably Nautilus
 [] Replicate config and theming for Everforest
 	[] Chromium browsers: https://www.januschka.com/chromium-omarchy.html
-	[] Alacritty
-		[] Term prompt
+	[x] Alacritty
+		[x] Term prompt
 	[] Waybar
 		[] Tray icons
 		[] bluetui
