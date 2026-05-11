@@ -1,5 +1,27 @@
 source /usr/share/cachyos-fish-config/cachyos-config.fish
 
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias c='opencode'
+alias cd='zd'
+alias decompress='tar -xzf'
+alias eff='$EDITOR "$(ff)"'
+alias ff='fzf --preview '\''bat --style=numbers --color=always {}'\'''
+alias g='git'
+alias gcad='git commit -a --amend'
+alias gcam='git commit -a -m'
+alias gcm='git commit -m'
+alias ic='tdl c'
+alias icx='tdl c cx'
+alias ix='tdl cx'
+alias ls='eza -lh --group-directories-first --icons=auto'
+alias lsa='ls -a'
+alias lt='eza --tree --level=2 --long --icons --git'
+alias lta='lt -a'
+alias r='rails'
+alias t='tmux attach || tmux new -s Work'
+
 function y
 	set tmp (mktemp -t "yazi-cwd.XXXXXX")
 	command yazi $argv --cwd-file="$tmp"

@@ -1,6 +1,6 @@
 [] List of useful utilities and default packages
-	[] bat, 
-	[] dedicated TUI launch
+	[x] aliases 
+	[x] dedicated TUI launch
 [] Good scaling sys font
 [] Probably just use fuzzel
 [] Export background images
